@@ -1,0 +1,39 @@
+body{
+  background-color: black;  
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os botões */
+   
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: blue; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda os cantos */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo para quando o mouse passa sobre o botão */
+.button:hover {
+    background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+}
+.button:active {
+    background-color: red; /* Cor de fundo ao clicar */
+}
